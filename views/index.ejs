@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../styles/index.css">
+</head>
+<body>
+    <h1>See All the Pokemon!</h1>
+    <ul style="list-style-type: none;">
+    <% for (let i=0 ; i<pokemons.length ;i++ ) { %>
+        <li>
+          <a href="/pokemon/<%=i%>"><%= pokemons[i].name %></a>
+        </li>
+    <% } %>
+    </ul>
+</body>
+</html>
