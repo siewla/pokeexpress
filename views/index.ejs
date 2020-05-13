@@ -7,10 +7,14 @@
     <h1>See All the Pokemon!</h1>
     <ul style="list-style-type: none;">
     <% for (let i=0 ; i<pokemons.length ;i++ ) { %>
-        <li>
+        <h2>
           <a href="/pokemon/<%=i%>"><%= pokemons[i].name %></a>
-        </li>
+        </h2>
     <% } %>
     </ul>
+
+    <br>
+    <br>
+    <h3> designed by SiewLa</h3>
 </body>
 </html>
