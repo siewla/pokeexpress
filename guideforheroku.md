@@ -1,17 +1,18 @@
 Summary, there are two ways to deploy 
 1. by command line and GitHub repo
-2. through heroku website and GitHub repoHeroku Deployment 
+2. through heroku website and GitHub repo
 
+Heroku Deployment:
 You need a folder in ur GitHub for the app. - the repo can be private too :)
 https://devcenter.heroku.com/articles/git
 
-My steps
+My steps:
 1) create a repo in GitHub
 2) git clone the blank repo
 3) copy all the file to the folder
 4) git add git commit and git push
 
-Then for heroku
+Then for heroku:
 Download The Heroku CLI
 https://devcenter.heroku.com/articles/heroku-cli
 
